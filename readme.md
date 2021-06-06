@@ -1,6 +1,6 @@
-<center><h1> HLS Downloader </h1></center>
+<h1> HLS Downloader </h1>
 
-<center>An efficient, fast, powerful and light-weight HLS downloader that doesn't require `ffmpeg`. </center>
+An efficient, fast, powerful and light-weight HLS downloader that doesn't require `ffmpeg`.
 
 ### Core features:
 
