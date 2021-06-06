@@ -4,13 +4,13 @@ An efficient, fast, powerful and light-weight HLS downloader that doesn't requir
 
 ### Core features:
 
-- Auto-quality fallback if quality is unavailable.
+- Auto-quality fallback if preferred quality is unavailable.
 - Implements internal AES decryption.
-- Supports an optional progress bar `tqdm`.
+- Supports an optional progress bar using `tqdm`.
 - Checks HLS streams recursively to extract all qualities forehand.
 - Supports custom headers and unverified SSL urls.
 
-Project made in favor of [AnimDL](https://github.com/justfoolingaround).
+Project made in favor of [AnimDL](https://github.com/justfoolingaround/animdl).
 
 ### Limitations
 
