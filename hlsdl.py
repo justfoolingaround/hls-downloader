@@ -11,7 +11,7 @@ from core.utils import *
 @click.option('-i', '--input', required=True, help="Input url for the stream.")
 @click.option('-o', '--output', required=False, default='./output.ts', help="Output file to which the stream is to be downloaded.")
 @click.option('-pq', '--preferred-quality', required=False, default=1080, type=int, help="Preferred quality for downloading.")
-@click.option('--headers', required=False, help="Access headers for the stream.")
+@click.option('--headers', default='', required=False, help="Access headers for the stream.")
 @click.option('--unverify', is_flag=True, flag_value=True)
 @click.option('-s', '--silent', is_flag=True, flag_value=True)
 def __hls_downloader__(input, output, preferred_quality, headers, unverify, silent):
