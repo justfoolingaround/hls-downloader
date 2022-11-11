@@ -1,4 +1,6 @@
-click
-httpx
-yarl
-pycryptodomex
+# WARNING: USES GREATER THAN FOR VERSIONS. THIS MAY FACE REPERCUSSIONS FROM MALICIOUS UPSTREAM VERSIONS OF THESE REQUIREMENTS.
+click>=8.0.4
+requests>=2.28.0
+yarl>=1.7.2
+pycryptodomex>=3.14.1
+rich>=11.2.0
