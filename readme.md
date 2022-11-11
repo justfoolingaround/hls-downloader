@@ -17,7 +17,11 @@ This project provides code for live stream downloading but does not implement th
 ## Usage
 
 ```console
-$ py hlsdl.py --help                                                                                                                                                                Usage: hlsdl.py [OPTIONS] URL                                                                                                                                                                                                                                                                                                                                                 Options:                                                                                                                                                                                 -f, --file PATH                 File to output to.
+$ py hlsdl.py --help
+                                                                                                                                                  
+Usage: hlsdl.py [OPTIONS] URL
+Options:
+  -f, --file PATH                 File to output to.
   --strict                        Strictly follow the HLS specification. This
                                   will cause the program to fail if it
                                   encounters a non-compliant stream.
